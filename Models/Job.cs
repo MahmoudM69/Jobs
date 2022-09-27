@@ -9,6 +9,7 @@ namespace Jobs.Models
         public string Title { get; set; }
         [DisplayName("وصف الوظيفة")]
         public string Content { get; set; }
+        public string ImagePath { get; set; }
         [DisplayName("صورة الوظيفة")]
         public IFormFile Image { get; set; }
         [DisplayName("نوع الوظيفة")]
