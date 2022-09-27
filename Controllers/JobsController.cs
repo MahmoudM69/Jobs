@@ -76,6 +76,7 @@ namespace Jobs.Controllers
                     {
                         job.Image.CopyTo(fileStream);
                     }
+                    job.ImagePath = filePath;
                 }
                 
                 //Job job1 = new Job
